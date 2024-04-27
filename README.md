@@ -25,6 +25,7 @@ DB_PASSWORD=laravel_pass
 ``` bash
 php artisan key:generate
 ```
+
 6.
   
 ## 使用技術（実行環境）
