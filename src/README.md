@@ -26,7 +26,16 @@ DB_PASSWORD=laravel_pass
 php artisan key:generate
 ```
 
-6.
+6.マイグレーションの実行  
+``` bash
+php artisan migrate
+```
+  
+7.シーディングの実行  
+``` bash
+php artisan db:seed
+```  
+  
   
 ## 使用技術（実行環境）
 
