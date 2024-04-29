@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+}
+
+.header {
+  border-bottom: 1px solid #EBEAEA;
+}
+
+.header__content {
+  max-width: 1230px;
+  color: #8B7969;
+  margin: 10px auto;
+
+}
+
+.header__title {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.content {
+  max-width: 1230px;
+  color: #8B7969;
+}
