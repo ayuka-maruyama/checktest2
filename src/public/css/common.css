@@ -23,4 +23,5 @@ html {
 .content {
   max-width: 1230px;
   color: #8B7969;
+  margin: 0 auto;
 }
