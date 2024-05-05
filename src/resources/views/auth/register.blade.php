@@ -15,16 +15,31 @@
         <form action="/register" method="post">
         @csrf
             <div class="register-form__area-inner">
-                <lable class="register-form__label">お名前</lable>
-                <input type="text" class="register-form__input" placeholder="例：山田 太郎">
+                <lable class="register-form__label" for="name">お名前</lable>
+                <input type="text" class="register-form__input" id="name" name="name" placeholder="例：山田 太郎">
+                <p class="register-form__error">
+                    @error('name')
+                    {{ $message }}
+                    @enderror
+                </p>
             </div>
             <div class="register-form__area-inner">
-                <lable class="register-form__label">メールアドレス</lable>
-                <input type="email" class="register-form__input" placeholder="例：test@example.com">
+                <lable class="register-form__label" for="email">メールアドレス</lable>
+                <input type="email" class="register-form__input" id="email" name="email" placeholder="例：test@example.com">
+                <p class="register-form__error">
+                    @error('email')
+                    {{ $message }}
+                    @enderror
+                </p>
             </div>
             <div class="register-form__area-inner">
                 <lable class="register-form__label">パスワード</lable>
-                <input type="password" class="register-form__input" placeholder="例：coachtech1106">
+                <input type="password" class="register-form__input" id="password" name="password" placeholder="例：coachtech1106">
+                <p class="register-form__error">
+                    @error('password')
+                    {{ $message }}
+                    @enderror
+                </p>
             </div>
             <div class="register-form__btn">
                 <input class="register-form__btn-submit" type="submit" value="登録">
