@@ -1,0 +1,120 @@
+.admin-form__logout, .logout-btn {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    width: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #EBEAEA;
+    text-decoration: none;
+    padding: 0 20px;
+    color: #d9d9d8;
+    background: #EBEAEA;
+}
+
+.admin {
+    max-width: 1230px;
+}
+
+.admin__heading {
+    text-align: center;
+    padding: 20px 20px 30px 20px;
+    margin: 0;
+}
+
+
+.search-form {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-form__text {
+    padding: 0px 5px;
+    width: 280px;
+}
+
+.search-form__gender select ,
+.search-form__category select, 
+.search-form__date-input {
+    color: #8B7969;
+    padding: 5px 0;
+}
+
+.search-form__search-btn {
+    display: inline-block;
+    border: none;
+    background: #82756A;
+    color: #FFFFFF;
+    padding: 5px 0;
+    width: 80px;
+}
+
+.search-form__reset-btn {
+    display: inline-block;
+    border: none;
+    background: #D9C6B5;
+    color: #FFFFFF;
+    padding: 5px 0;
+    width: 80px;
+}
+
+.export-form {
+    width: 85%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.export__btn {
+    border: none;
+    background: #c7b8aa;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    line-height: 1.5rem;
+    margin: 20px 0;
+}
+
+.admin-table {
+    width: 85%;
+    margin: 5px auto;
+    border: 1px solid #c7b8aa;
+}
+
+.admin__row {
+    background: #82756A;
+    color: #FFFFFF;
+    border-bottom: 1px solid #c7b8aa;
+}
+
+.admin__label {
+    border: 1px solid #82756A;
+    padding: 5px 10px;
+    text-align: start;
+}
+
+.admin__row-data {
+    background: #82756A;
+    color: #FFFFFF;
+    border-bottom: 1px solid #c7b8aa;
+    height: 55px;
+}
+
+
+.admin__data {
+    background: #FFFFFF;
+    color: #8B7969;
+    padding: 5px;
+}
+
+
+.admin__data-link {
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 1px solid #c7b8aa;
+    text-decoration: none;
+    color: #E0D1C4;
+    background: #FCFCFC;
+}
+

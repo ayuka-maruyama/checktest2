@@ -16,7 +16,7 @@
         @csrf
             <div class="register-form__area-inner">
                 <lable class="register-form__label" for="name">お名前</lable>
-                <input type="text" class="register-form__input" id="name" name="name" placeholder="例：山田 太郎">
+                <input type="text" class="register-form__input" id="name" name="name" value="{{ old('name') }}" placeholder="例：山田 太郎">
                 <p class="register-form__error">
                     @error('name')
                     {{ $message }}
@@ -25,7 +25,7 @@
             </div>
             <div class="register-form__area-inner">
                 <lable class="register-form__label" for="email">メールアドレス</lable>
-                <input type="email" class="register-form__input" id="email" name="email" placeholder="例：test@example.com">
+                <input type="mail" class="register-form__input" id="email" name="email" value="{{ old('email') }}"  placeholder="例：test@example.com">
                 <p class="register-form__error">
                     @error('email')
                     {{ $message }}
